@@ -1,0 +1,119 @@
+.header {
+    padding: 20px;
+    background-image: url("../img/BG/BG\ Photo.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 750px;
+}
+
+.header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    font-weight: 300;
+    font-size: 26px;
+    padding-top: 10px;
+    width: fit-content;
+}
+
+.nav-link {
+    color: var(--white);
+}
+
+.logo {
+    max-width: 500px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.header-desc {
+    margin-top: -80px;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.header .button {
+    margin-top: 50px;
+}
+
+@media(max-width: 1000px) {
+    .nav {
+        gap: 100px;
+    }
+
+    .header-desc {
+        margin-top: -80px;
+        font-weight: 300;
+        font-size: 33px;
+    }
+
+    .logo {
+    padding-bottom: 80px;
+    }
+}
+
+@media(max-width: 700px) {
+    .nav {
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        font-size: 20px;
+    }
+    .logo {
+        max-width: 300px;
+    padding-bottom: 50px;
+    }
+    .header-desc {
+        margin-top: -50px;
+        font-weight: 300;
+        font-size: 20px;
+    }
+    .header .button {
+    margin-top: 50px;
+}
+}
+
+@media(max-width: 460px){
+    .logo {
+        max-width: 250px;
+    }
+}
+@media(max-width: 430px){
+    .nav {
+        gap: 25px;
+        font-size: 16px;
+    }
+    .logo {
+        max-width: 200px;
+    }
+    .header-desc {
+        margin-top: -30px;
+        font-weight: 300;
+        font-size: 18px;
+    }
+    .header .button {
+    margin-top: 50px;
+}
+}
+@media(max-width: 385px){
+    .nav {
+        gap: 19px;
+        font-size: 14px;
+    }
+    .logo {
+        max-width: 300px;
+    }
+    .header-desc {
+        margin-top: -30px;
+        font-weight: 300;
+        max-width: 200px;
+        text-align: center;
+    }
+}

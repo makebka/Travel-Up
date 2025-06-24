@@ -1,0 +1,17 @@
+@import "./../fonts/Inter/Inter.css";
+@import "./../fonts/Open_Sans/Open_Sans.css";
+@import "./../fonts/viva-beautiful/viva_beautiful.css";
+
+/*base*/
+@import "./reset.css";
+@import "./base.css";
+
+/*blocks*/
+@import "./blocks/header.css";
+@import "./blocks/post-header.css";
+@import "./blocks/kind-of-travel.css";
+@import "./blocks/garanties.css";
+@import "./blocks/our-travels.css";
+@import "./blocks/what-people-say.css";
+
+@import "./blocks/footer.css";

@@ -1,0 +1,131 @@
+.post-header {
+    padding: 10px 0px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-image: url("../img/BG/1st\ section\ BG.jpg");
+    background-position: 700px center;
+    background-repeat: no-repeat;
+    background-size: auto 500px;
+    max-height: 592px;
+}
+
+.post-header-title {
+    max-width: 508px;
+    width: 100%;
+}
+
+.post-header-desc {
+    padding-top: 35px;
+    max-width: 508px;
+    width: 100%;
+}
+
+.post-header-button-link-para {
+    padding-top: 55px;
+    display: flex;
+    align-content: space-between;
+    flex-direction: row;
+    gap: 80px;
+    align-items: center;
+    max-width: 508px;
+    width: 100%;
+    position: relative;
+}
+
+.post-header .button {
+    position: absolute;
+    left: 0;
+}
+
+.post-header-link {
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--white);
+    margin-left: 300px;
+}
+
+@media(max-width: 1200px) {
+    .post-header{
+    background-position: 350px center;}
+}
+
+@media(max-width: 1000px) {
+    .post-header {
+        padding-left: 30px;
+        padding-top: 100px;
+        padding-bottom: 0;
+        background-position: 400px center;
+        background-size: auto 400px;
+        max-height: 400px;
+    }
+}
+
+@media(max-width: 700px) {
+    .post-header {
+        padding-left: 30px;
+        padding-top: 90px;
+
+        padding-bottom: 100px;
+        background-position: 100px center
+    }
+
+    .post-header-title {
+        max-width: 250px;
+    }
+
+    .text {
+        font-size: 15px;
+    }
+
+    .title-text {
+        font-size: 28px;
+    }
+
+    .post-header-desc {
+        padding-top: 35px;
+        max-width: 250px;
+        width: 100%;
+    }
+
+    .post-header-button-link-para {
+        padding-top: 60px;
+    }
+
+    .post-header-link {
+        font-size: 20px;
+        margin-left: 230px;
+    }
+
+    .button {
+        padding: 20px 60px;
+        font-weight: 700;
+        font-size: 18px;
+
+    }
+
+    .button:hover {
+        font-weight: 700;
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 430px) {
+    .post-header {
+        padding-bottom: 100px;
+    }
+
+    .post-header-link {
+        font-size: 16px;
+        margin-left: 220px;
+    }
+
+    .button {
+        padding: 15px 50px;
+        font-size: 15px;
+
+    }
+
+    .button:hover {
+        font-size: 16px;
+    }
+}

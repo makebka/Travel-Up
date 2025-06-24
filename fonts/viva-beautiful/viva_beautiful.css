@@ -1,0 +1,6 @@
+@font-face {
+  font-family: "Viva Beautiful";
+    src: 
+    url("/fonts/viva-beautiful/Viva\ Beautiful.otf") format("opentype"),
+    url("/fonts/viva-beautiful/Viva\ Beautiful.ttf") format("truetype");
+}
